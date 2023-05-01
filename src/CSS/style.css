@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@800&family=Poppins:wght@200;400&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +14,8 @@
 
 body {
     font-size: 1.6rem;
-    height: 2000px;
+    background-color: #ddd;
+    height: 100vh;
 }
 
 .navigation {
@@ -65,6 +65,7 @@ body {
     margin: 2rem;
     font-weight: 400;
     font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
     position: relative;
 }
 
@@ -128,4 +129,146 @@ body {
         display: block;
     }
     
+}
+
+.pallets {
+    margin: 13rem 0;
+}
+
+.pallets h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3.2rem;
+    font-family: 'Opens sans', sans-serif;
+}
+
+.all-pallets{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12rem;
+}
+
+.all-pallets button:hover{
+    cursor: pointer;
+}
+
+.colors {
+    display: flex;
+    margin-bottom: 5rem;
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2rem 9rem;
+    border-radius: 5rem;
+    box-shadow: 0 2px 10px #000;
+}
+
+#color1 {
+    background-color: #4f000b;
+    color: #ddd;
+}
+#color2 {
+    background-color: #720026;
+    color: #dddddd;
+}
+#color3 {
+    background-color: #CE4257;
+    color: #ddd;
+}
+#color4 {
+    background-color: #FF7f51;
+    color: #ddd;
+}
+#color5 {
+    background-color: #FF9B54;
+    color: #ddd;
+}
+#color6 {
+    background-color: #BFACAA;
+    color: #ececec;
+}
+#color7 {
+    background-color: #02020A;
+    color: #ddd;
+}
+#color8 {
+    background-color: #05204A;
+    color: #ddd;
+}
+#color9 {
+    background-color: #B497D6;
+    color: #fcfcfc;
+}
+#color10 {
+    background-color: #E1E2EF;
+    color: #535353;
+}
+#color11 {
+    background-color: #EAEAEA;
+    color: #686868;
+}
+#color12 {
+    background-color: #893168;
+    color: #ddd;
+}
+#color13 {
+    background-color: #4A1942;
+    color: #ddd;
+}
+#color14 {
+    background-color: #2E1C2B;
+    color: #ddd;
+}
+#color15 {
+    background-color: #050404;
+    color: #ddd;
+}
+#color16 {
+    background-color: #16BAC5;
+    color: #f0f0f0;
+}
+#color17 {
+    background-color: #5FBFF9;
+    color: #f1f1f1;
+}
+#color18 {
+    background-color: #EFE9F4;
+    color: #807f7f;
+}
+#color19 {
+    background-color: #171D1C;
+    color: #ddd;
+}
+#color20 {
+    background-color: #5863F8;
+    color: #ddd;
+}
+#color21 {
+    background-color: #040F0F;
+    color: #f1f1f1;
+}
+#color22 {
+    background-color: #248232;
+    color: #ddd;
+}
+#color23 {
+    background-color: #2BA84A;
+    color: #ddd;
+}
+#color24 {
+    background-color: #2D3A3A;
+    color: #ddd;
+}
+#color25 {
+    background-color: #FcFFFC;
+    color: #747474;
+}
+
+@media (max-width:1350px) {
+    .all-pallets {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 }
