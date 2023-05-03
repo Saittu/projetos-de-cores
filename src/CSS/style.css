@@ -26,6 +26,8 @@ body {
     width: 100%;
     position: fixed;
     transition: opacity 0.4s ease-in-out;
+    position: fixed;
+    
 }
 
 .navigation.opacitySc{
@@ -84,6 +86,31 @@ body {
     width: 100%;
 }
 
+#pallets:hover {
+    color: #16BAC5;
+    transition: 0.5s;
+}
+
+#netflix:hover {
+    color: #e50914;
+    transition: 0.5s;
+}
+
+#spotify:hover {
+    transition: 0.5s;
+    color: #1DB954;
+}
+
+#walmart:hover {
+    transition: 0.5s;
+    color: #0071CE;
+}
+
+#twitch:hover {
+    transition: 0.5s;
+    color: #6441A0;
+}
+
 .icon-menu {
     display: none;
 }
@@ -115,7 +142,7 @@ body {
         padding-top: 1.6rem;
     }
 
-    .mobile-ul .nav-link {
+    .mobile-ul .nav-link{
         display: block;
     }
 
