@@ -26,7 +26,6 @@ body {
     width: 100%;
     position: fixed;
     transition: opacity 0.4s ease-in-out;
-    position: fixed;
     
 }
 
@@ -161,6 +160,14 @@ body {
     }
     
 }
+
+@media (orientation: landscape){
+    .navigation{
+        position: relative;
+    }
+}
+
+
 
 .pallets {
     margin: 13rem 0;
@@ -301,5 +308,89 @@ body {
         display: flex;
         flex-wrap: wrap;
         
+    }
+}
+
+.title-netflix img {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    margin: auto;
+}
+
+.colors-netflix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-netflix {
+    padding: 15rem;
+    border-radius: 2rem;
+    box-shadow: 0px 3px 8px black;
+}
+
+#color1-netflix {
+    margin-top: 12rem;
+    background-color: #e50914;
+}
+
+#color2-netflix{
+    background-color: #B81D24;
+}
+
+#color3-netflix {
+    background-color: #221F1F;
+}
+
+#color4-netflix{
+    background-color: #F5F5F1;
+}
+
+.colors-netflix p {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+
+@media (min-width: 940px) AND (max-width: 1200px){
+    .align-color {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .colors-netflix {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 12rem;
+        justify-content: center;
+    }
+
+    #color1-netflix, #color3-netflix {
+        margin: 0;
+        border-radius: 2rem 0 0 2rem ;
+    }
+
+    #color2-netflix, #color4-netflix {
+        border-radius: 0 2rem 2rem 0;
+    }
+
+    .back-netflix {
+        padding: 22rem;
+        box-shadow: 0px 2px 3px black;
+    }
+
+    #align-color1, #align-color3 {
+        padding-left: 3rem;
+    }
+    
+    #align-color2, #align-color4 {
+        padding-right: 3rem;
     }
 }
