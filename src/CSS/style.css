@@ -161,14 +161,6 @@ body {
     
 }
 
-@media (orientation: landscape){
-    .navigation{
-        position: relative;
-    }
-}
-
-
-
 .pallets {
     margin: 14rem 0;
 }
@@ -317,7 +309,6 @@ body {
 
 .title-netflix img,
 .title-spotify img,
-.title-walmart img,
 .title-twitch img {
     width: 15rem;
     height: 15rem;
@@ -325,8 +316,16 @@ body {
     margin: auto;
 }
 
+.title-walmart img {
+    width: 26rem;
+    height: 14rem;
+    display: flex;
+    margin: auto;
+}
+
 .colors-netflix,
-.colors-spotify {
+.colors-spotify,
+.colors-walmart {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -372,6 +371,23 @@ body {
     background-color: #191414;
 }
 
+#color1-walmart{
+    margin-top: 12rem;
+    background-color: #0071CE;
+}
+
+#color2-walmart {
+    background-color: #FFC220;
+}
+
+#color3-walmart {
+    background-color: #FFFFFF;
+}
+
+#color4-walmart {
+    background-color: #041E42;
+}
+
 .colors-netflix p,
 .colors-spotify p,
 .colors-walmart p,
@@ -382,6 +398,12 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.8rem;
+}
+
+@media (orientation: landscape){
+    .navigation{
+        position: relative;
+    }
 }
 
 @media (min-width: 940px) AND (max-width: 1369px){
@@ -483,3 +505,5 @@ body {
     }
     
 }
+
+
