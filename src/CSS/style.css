@@ -118,49 +118,6 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 1145px) {
-
-    .nav-link{
-        display: none;
-    }
-
-    .icon-menu {
-        display: block;
-    }
-
-    .mobile-ul ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 5px;
-    }
-
-    
-    .mobile-ul .list {
-        display: block;
-        padding-top: 1.6rem;
-    }
-
-    .mobile-ul .nav-link{
-        display: block;
-    }
-
-    .icon-menu button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .open {
-        display: block;
-    }
-
-    .nav-link::after {
-        position: initial;    
-    }
-    
-}
-
 .pallets {
     margin: 14rem 0;
 }
@@ -400,6 +357,11 @@ body {
     font-size: 1.8rem;
 }
 
+#driver-walmart, #driver-spotify, #driver-netflix{
+    color: transparent;
+    margin: 5rem 0;
+}
+
 @media (orientation: landscape){
     .navigation{
         position: relative;
@@ -418,7 +380,8 @@ body {
 
 
     .colors-netflix,
-    .colors-spotify {
+    .colors-spotify,
+    .colors-walmart {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -426,12 +389,14 @@ body {
         justify-content: center;
     }
 
-    #color1-netflix, #color3-netflix {
+    #color1-netflix, #color3-netflix,
+    #color1-walmart, #color3-walmart {
         margin: 0;
         border-radius: 2rem 0 0 2rem ;
     }
 
-    #color2-netflix, #color4-netflix {
+    #color2-netflix, #color4-netflix,
+    #color2-walmart, #color4-walmart {
         border-radius: 0 2rem 2rem 0;
     }
 
@@ -445,7 +410,8 @@ body {
     }
 
     .back-netflix,
-    .back-spotify {
+    .back-spotify,
+    .back-walmart {
         padding: 22rem;
         box-shadow: 0px 2px 3px black;
     }
@@ -459,6 +425,49 @@ body {
     }
 }
 
+@media screen and (max-width: 1149px) {
+
+    .nav-link{
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .mobile-ul ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+    }
+
+    
+    .mobile-ul .list {
+        display: block;
+        padding-top: 1.6rem;
+    }
+
+    .mobile-ul .nav-link{
+        display: block;
+    }
+
+    .icon-menu button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .nav-link::after {
+        position: initial;    
+    }
+    
+}
+
 @media (min-width: 1370px) {
     .navigation {
         position: fixed;
@@ -470,7 +479,8 @@ body {
     }
 
     .colors-netflix,
-    .colors-spotify {
+    .colors-spotify,
+    .colors-walmart {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -479,21 +489,26 @@ body {
     }
 
     #color1-netflix,
-    #color1-spotify {
+    #color1-spotify,
+    #color1-walmart {
         margin: 0;
         border-radius: 2rem 0 0 2rem ;
     }
 
     #color2-netflix, #color3-netflix,
-    #color2-spotify {
+    #color2-spotify,
+    #color2-walmart, #color3-walmart {
         border-radius: 0;
     }
 
-    #color4-netflix, #color3-spotify {
+    #color4-netflix, 
+    #color3-spotify,
+    #color4-walmart {
         border-radius: 0 2rem 2rem 0;
     }
 
-    .back-netflix {
+    .back-netflix,
+    .back-walmart {
         padding: 22rem 15rem;
         box-shadow: 0px 2px 3px black;
     }
