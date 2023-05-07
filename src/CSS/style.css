@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@800&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Inter:wght@200;300;400;500&family=Open+Sans:wght@800&family=Poppins:wght@200;400&display=swap');
 
 * {
     margin: 0;
@@ -14,8 +14,8 @@
 
 body {
     font-size: 1.6rem;
-    background-color: #ddd;
     height: 100vh;
+    background-color: #ddd;
 }
 
 .navigation {
@@ -262,6 +262,8 @@ body {
     .navigation {
         position: fixed;
     }
+
+
 }
 
 .title-netflix img,
@@ -282,7 +284,8 @@ body {
 
 .colors-netflix,
 .colors-spotify,
-.colors-walmart {
+.colors-walmart,
+.colors-twitch {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,7 +295,7 @@ body {
 .back-netflix,
 .back-spotify,
 .back-walmart,
-.back-twicht {
+.back-twitch {
     padding: 15rem;
     border-radius: 2rem;
     box-shadow: 0px 3px 8px black;
@@ -345,6 +348,23 @@ body {
     background-color: #041E42;
 }
 
+#color1-twitch {
+    margin-top: 12rem;
+    background-color: #000000;
+}
+
+#color2-twitch {
+    background-color:#6441A4;
+}
+
+#color3-twitch {
+    background-color: #392E5C;
+}
+
+#color4-twitch {
+    background-color: #FFFFFF;
+}
+
 .colors-netflix p,
 .colors-spotify p,
 .colors-walmart p,
@@ -357,7 +377,7 @@ body {
     font-size: 1.8rem;
 }
 
-#driver-walmart, #driver-spotify, #driver-netflix{
+#driver-walmart, #driver-spotify, #driver-netflix, #driver-twitch{
     color: transparent;
     margin: 5rem 0;
 }
@@ -381,7 +401,8 @@ body {
 
     .colors-netflix,
     .colors-spotify,
-    .colors-walmart {
+    .colors-walmart,
+    .colors-twitch {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -390,13 +411,15 @@ body {
     }
 
     #color1-netflix, #color3-netflix,
-    #color1-walmart, #color3-walmart {
+    #color1-walmart, #color3-walmart,
+    #color1-twitch, #color3-twitch {
         margin: 0;
         border-radius: 2rem 0 0 2rem ;
     }
 
     #color2-netflix, #color4-netflix,
-    #color2-walmart, #color4-walmart {
+    #color2-walmart, #color4-walmart,
+    #color2-twitch, #color4-twitch {
         border-radius: 0 2rem 2rem 0;
     }
 
@@ -411,7 +434,8 @@ body {
 
     .back-netflix,
     .back-spotify,
-    .back-walmart {
+    .back-walmart,
+    .back-twitch {
         padding: 22rem;
         box-shadow: 0px 2px 3px black;
     }
@@ -480,7 +504,8 @@ body {
 
     .colors-netflix,
     .colors-spotify,
-    .colors-walmart {
+    .colors-walmart,
+    .colors-twitch {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -490,25 +515,29 @@ body {
 
     #color1-netflix,
     #color1-spotify,
-    #color1-walmart {
+    #color1-walmart,
+    #color1-twitch {
         margin: 0;
         border-radius: 2rem 0 0 2rem ;
     }
 
     #color2-netflix, #color3-netflix,
     #color2-spotify,
-    #color2-walmart, #color3-walmart {
+    #color2-walmart, #color3-walmart,
+    #color2-twitch, #color3-twitch {
         border-radius: 0;
     }
 
     #color4-netflix, 
     #color3-spotify,
-    #color4-walmart {
+    #color4-walmart,
+    #color4-twitch {
         border-radius: 0 2rem 2rem 0;
     }
 
     .back-netflix,
-    .back-walmart {
+    .back-walmart,
+    .back-twitch {
         padding: 22rem 15rem;
         box-shadow: 0px 2px 3px black;
     }
