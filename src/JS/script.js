@@ -18,6 +18,20 @@ function ActivatedMenu() {
     }
 }
 
+function copyText() {
+    let buttonColors = document.querySelector('.colors')
+    let text = buttonColors.innerHTML
+
+    navigator.clipboard.writeText(text)
+    .then( () => {
+        console.log('texto copiado para a área de transferencia!')
+    })
+    .catch( (error) =>{
+        console.error("erro ao copiar texto: ",error)
+    })
+    
+}
+
 const scrollDown = document.querySelector('.navigation');
 
 function opacityScroll() {
